@@ -3,10 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/auto-service/auto-service.iml" filepath="$PROJECT_DIR$/auto-service/auto-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud-example.iml" filepath="$PROJECT_DIR$/cloud-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/example.iml" filepath="$PROJECT_DIR$/example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-server/gateway-server.iml" filepath="$PROJECT_DIR$/gateway-server/gateway-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/model-service/model-service.iml" filepath="$PROJECT_DIR$/model-service/model-service.iml" />
     </modules>
   </component>

@@ -12,6 +12,7 @@
     <modules>
         <module>config-server</module>
         <module>eureka-server</module>
+        <module>gateway-server</module>
         <module>auto-service</module>
         <module>model-service</module>
     </modules>
