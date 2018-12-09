@@ -7,7 +7,14 @@ cache:
   directories:
   - $HOME/.m2
 
+# https://docs.travis-ci.com/user/database-setup/#PostgreSQL
+
 # https://docs.travis-ci.com/user/customizing-the-build#Building-Specific-Branches
 branches:
   only:
-- master
+  - master
+
+
+# https://docs.travis-ci.com/user/notifications#Configuring-email-notifications
+#notifications:
+#  email: false
