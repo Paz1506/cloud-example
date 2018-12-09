@@ -4,3 +4,9 @@ An example of an application for working with the microservice architecture base
 * Config server & clients
 * Eureka discovery server & clients
 * Feign client
+
+<h3>API</h3>
+
+The list of available API endpoints can be seen in Swagger for a services:
+* autos: http://localhost:8077/swagger-ui.html
+* models: http://localhost:8078/swagger-ui.html
