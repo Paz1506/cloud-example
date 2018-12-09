@@ -1,4 +1,4 @@
-https://travis-ci.org/Paz1506/cloud-example.svg?branch=master
+![Build Status](https://travis-ci.org/Paz1506/cloud-example.svg?branch=master)
 
 <h2>Spring cloud example</h2>
 
