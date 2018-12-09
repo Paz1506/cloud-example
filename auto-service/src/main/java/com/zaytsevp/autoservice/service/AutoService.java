@@ -1,0 +1,17 @@
+package com.zaytsevp.autoservice.service;
+
+import com.zaytsevp.autoservice.model.Auto;
+
+import java.util.List;
+import java.util.Optional;
+import java.util.UUID;
+
+public interface AutoService {
+
+    List<Auto> getAll();
+
+    Optional<Auto> getById(UUID id);
+
+    Auto createRandom();
+
+}
