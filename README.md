@@ -5,6 +5,7 @@
 An example of an application for working with the microservice architecture based on the Spring Boot / Cloud & Netflix stack:
 * Config server & clients
 * Eureka discovery server & clients
+* Zuul gateway
 * Feign client
 
 <h3>API</h3>
