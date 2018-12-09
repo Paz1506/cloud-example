@@ -17,6 +17,7 @@
       <module name="cloud-example" target="1.5" />
       <module name="config-server" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="example" target="1.5" />
       <module name="model-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
