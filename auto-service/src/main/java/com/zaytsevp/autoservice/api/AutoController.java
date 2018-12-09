@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping(value = "/")
+@RequestMapping(value = "/autos")
 public class AutoController {
 
     private final AutoService autoService;
@@ -27,7 +27,7 @@ public class AutoController {
         return autoService.getAll();
     }
 
-    @GetMapping(value = "/auto/{id}")
+    @GetMapping(value = "/{id}")
     public Auto getById(@PathVariable("id") UUID id) {
 
         return autoService.getById(id).orElse(Auto.builder().name("Not found")

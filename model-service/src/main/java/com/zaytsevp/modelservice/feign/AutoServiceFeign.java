@@ -11,10 +11,10 @@ import java.util.UUID;
 @FeignClient("auto-service")
 public interface AutoServiceFeign {
 
-    @RequestMapping("/all")
+    @RequestMapping("/autos/all")
     List<Auto> getAll();
 
-    @RequestMapping("/auto/{id}")
+    @RequestMapping("/autos/{id}")
     Auto getById(@PathVariable(name = "id") UUID id);
 
 }

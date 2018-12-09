@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping(value = "/")
+@RequestMapping(value = "/models")
 public class ModelController {
 
     private final ModelService modelService;
@@ -33,13 +33,13 @@ public class ModelController {
         return modelService.getAll();
     }
 
-    @GetMapping(value = "/model/{id}")
+    @GetMapping(value = "/{id}")
     public Model getById(@PathVariable("id") UUID id) {
 
         return modelService.getById(id).orElseThrow(EntityNotFoundException::new);
     }
 
-    @GetMapping(value = "/model/dto/{id}")
+    @GetMapping(value = "/dto/{id}")
     public ModelDto getDtoById(@PathVariable("id") UUID id) {
         Model model = modelService.getById(id).orElseThrow(EntityNotFoundException::new);
         Auto auto = autoServiceFeign.getById(model.getAutoId());
