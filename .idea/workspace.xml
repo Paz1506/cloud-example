@@ -2,8 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="859362c2-44d9-4bc1-8252-32e379acbe84" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-service/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/zaytsevp/authservice/AuthServiceApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/zaytsevp/authservice/api/AuthController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/zaytsevp/authservice/config/AuthenticationManagerConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/zaytsevp/authservice/config/OAuthConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/zaytsevp/authservice/service/UserDetailServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/auth-service/src/main/resources/bootstrap.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/config/FeignConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/config/SecurityMethodConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/auto-service/pom.xml" afterPath="$PROJECT_DIR$/auto-service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/auto-service/src/main/java/com/zaytsevp/autoservice/AutoServiceApplication.java" afterPath="$PROJECT_DIR$/auto-service/src/main/java/com/zaytsevp/autoservice/AutoServiceApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/auto-service/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/auto-service/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model-service/pom.xml" afterPath="$PROJECT_DIR$/model-service/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/ModelServiceApplication.java" afterPath="$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/ModelServiceApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/api/ModelController.java" afterPath="$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/api/ModelController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model-service/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/model-service/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,6 +46,7 @@
     <ignored path="gateway-server/.mvn/" />
     <ignored path="gateway-server/mvnw" />
     <ignored path="gateway-server/mvnw.cmd" />
+    <ignored path="$PROJECT_DIR$/auth-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,104 +56,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="SecurityMethodConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/config/SecurityMethodConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeignConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/config/FeignConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthenticationManagerConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/zaytsevp/authservice/config/AuthenticationManagerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OAuthConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/zaytsevp/authservice/config/OAuthConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDetailServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/zaytsevp/authservice/service/UserDetailServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/auth-service/src/main/resources/bootstrap.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="45" lean-forward="true" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/zaytsevp/authservice/api/AuthController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/model-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GatewayServerApplicationTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway-server/src/test/java/com/zaytsevp/gatewayserver/GatewayServerApplicationTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GatewayServerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway-server/src/main/java/com/zaytsevp/gatewayserver/GatewayServerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="211">
+              <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="52" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway-server/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/model-service/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="68" lean-forward="false" selection-start-line="0" selection-start-column="68" selection-end-line="0" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="112">
-                <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GatewayConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway-server/src/main/java/com/zaytsevp/gatewayserver/config/GatewayConfig.java">
+      <file leaf-file-name="AuthServiceApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/zaytsevp/authservice/AuthServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AutoServiceConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/zaytsevp/autoservice/config/AutoServiceConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-service/src/main/resources/bootstrap.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway-server/src/main/resources/bootstrap.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AutoServiceApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/zaytsevp/autoservice/AutoServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="68">
+              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -166,17 +184,12 @@
       <list>
         <option value="$PROJECT_DIR$/config-server/src/main/java/com/zaytsevp/configserver/config/ServerConfig.java" />
         <option value="$PROJECT_DIR$/auto-service/src/main/java/com/zaytsevp/autoservice/config/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/auto-service/pom.xml" />
-        <option value="$PROJECT_DIR$/model-service/pom.xml" />
-        <option value="$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/api/ModelController.java" />
         <option value="$PROJECT_DIR$/auto-service/src/main/java/com/zaytsevp/autoservice/api/AutoController.java" />
         <option value="$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/feign/AutoServiceFeign.java" />
         <option value="$PROJECT_DIR$/gatewayservice/pom.xml" />
         <option value="$PROJECT_DIR$/travis.yml" />
         <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/auto-service/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/auto-service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/model-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/model-service/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/auto-service/src/main/resources/import.sql" />
         <option value="$PROJECT_DIR$/model-service/src/main/resources/import.sql" />
@@ -185,6 +198,23 @@
         <option value="$PROJECT_DIR$/gateway-server/src/main/java/com/zaytsevp/gatewayserver/GatewayServerApplication.java" />
         <option value="$PROJECT_DIR$/gateway-server/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/auth-service/pom.xml" />
+        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/zaytsevp/authservice/service/UserDetailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/zaytsevp/authservice/AuthServiceApplication.java" />
+        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/zaytsevp/authservice/api/AuthController.java" />
+        <option value="$PROJECT_DIR$/auth-service/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/api/ModelController.java" />
+        <option value="$PROJECT_DIR$/auto-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/config/SecurityMethodConfig.java" />
+        <option value="$PROJECT_DIR$/model-service/pom.xml" />
+        <option value="$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/ModelServiceApplication.java" />
+        <option value="$PROJECT_DIR$/model-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/auto-service/pom.xml" />
+        <option value="$PROJECT_DIR$/auto-service/src/main/java/com/zaytsevp/autoservice/AutoServiceApplication.java" />
+        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/zaytsevp/authservice/config/OAuthConfig.java" />
+        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/zaytsevp/authservice/config/AuthServerConfig.java" />
+        <option value="$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/config/FeignConfig.java" />
+        <option value="$PROJECT_DIR$/auth-service/src/main/java/com/zaytsevp/authservice/config/AuthenticationManagerConfig.java" />
       </list>
     </option>
   </component>
@@ -194,10 +224,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="24" />
-    <option name="width" value="1366" />
-    <option name="height" value="744" />
+    <option name="x" value="659" />
+    <option name="width" value="1268" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -209,15 +245,13 @@
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,11 +259,218 @@
               <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="auth-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="autoservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="model-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="model-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="model-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="model-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="model-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="modelservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="model-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="modelservice" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="model-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="modelservice" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="model-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="modelservice" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="model-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="modelservice" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-example" type="462c0819:PsiDirectoryNode" />
+              <item name="model-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,13 +487,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zaytsevp.authservice" />
       <recent name="com.zaytsevp.modelservice.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Java_In\cloud-example\gateway-server\src\main\resources" />
-      <recent name="F:\Java_In\cloud-example" />
-      <recent name="F:\Java_In\cloud-example\model-service\src\main\resources" />
-      <recent name="F:\Java_In\cloud-example\auto-service\src\main\resources" />
+      <recent name="C:\Java_in\cloud-example\auth-service\src\main\java\com\zaytsevp\authservice\config" />
+      <recent name="C:\Java_in\cloud-example\model-service\src\main\java\com\zaytsevp\modelservice\config" />
+      <recent name="C:\Java_in\cloud-example\auth-service\src\main\resources" />
+      <recent name="C:\Java_in\cloud-example\auth-service\src\main\java\com\zaytsevp\authservice\api" />
+      <recent name="C:\Java_in\cloud-example\auth-service\src\main\java\com\zaytsevp\authservice\service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -268,6 +511,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ModelServiceApplication">
+    <configuration name="AuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zaytsevp.authservice.AuthServiceApplication" />
+      <option name="SHOW_IN_DASHBOARD" value="true" />
+      <module name="auth-service" />
+      <envs />
+    </configuration>
     <configuration name="AutoServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zaytsevp.autoservice.AutoServiceApplication" />
@@ -391,12 +641,13 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.AutoServiceApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.ConfigServerApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication" />
       <item index="3" class="java.lang.String" itemvalue="Spring Boot.ModelServiceApplication" />
       <item index="4" class="java.lang.String" itemvalue="Spring Boot.GatewayServerApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.AuthServiceApplication" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -500,15 +751,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14782000" />
+    <option name="totallyTimeSpent" value="23806000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27363738" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17590618" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -517,26 +767,50 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4548495" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30992195" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28985506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23187633" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27363738" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35150167" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27363738" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14962727" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,62 +842,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/ModelServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-service/src/main/resources/import.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model-service/src/main/resources/import.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="47" column="27" lean-forward="false" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auto-service/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -712,28 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/api/ModelController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/feign/AutoServiceFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gatewayservice/pom.xml" />
     <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -757,34 +953,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-server/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/ModelServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="47" column="27" lean-forward="false" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,15 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,7 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,7 +978,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,21 +985,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway-server/src/test/java/com/zaytsevp/gatewayserver/GatewayServerApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
+        <state relative-caret-position="0">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
@@ -846,23 +998,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/zaytsevp/autoservice/config/AutoServiceConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
+        <state relative-caret-position="85">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/zaytsevp/autoservice/AutoServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway-server/src/main/java/com/zaytsevp/gatewayserver/config/GatewayConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
+        <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
@@ -870,7 +1014,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway-server/src/main/java/com/zaytsevp/gatewayserver/GatewayServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="187">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
@@ -886,7 +1030,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway-server/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
+        <state relative-caret-position="17">
           <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
           <folding />
         </state>
@@ -908,6 +1052,182 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/feign/AutoServiceFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/api/dto/ModelDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/config/ModelServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="49" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/ModelServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-service/src/main/java/com/zaytsevp/autoservice/AutoServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/api/ModelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="46" column="33" lean-forward="false" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="52" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="68" lean-forward="false" selection-start-line="0" selection-start-column="68" selection-end-line="0" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/zaytsevp/authservice/AuthServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/config/FeignConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model-service/src/main/java/com/zaytsevp/modelservice/config/SecurityMethodConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/zaytsevp/authservice/api/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/zaytsevp/authservice/config/AuthServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="54" column="17" lean-forward="false" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/zaytsevp/authservice/config/OAuthConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/zaytsevp/authservice/config/AuthenticationManagerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/java/com/zaytsevp/authservice/service/UserDetailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth-service/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="45" lean-forward="true" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>

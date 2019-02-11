@@ -44,7 +44,8 @@ public class ModelController {
         Model model = modelService.getById(id).orElseThrow(EntityNotFoundException::new);
         Auto auto = autoServiceFeign.getById(model.getAutoId());
 
-        return ModelDto.builder().modelName(model.getName())
+        return ModelDto.builder()
+                       .modelName(model.getName())
                        .id(auto.getId())
                        .autoName(auto.getName())
                        .buildYear(model.getBuildYear())

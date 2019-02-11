@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="auth-service" />
         <module name="auto-service" />
         <module name="config-server" />
         <module name="eureka-server" />
@@ -14,6 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="auth-service" target="1.8" />
       <module name="auto-service" target="1.8" />
       <module name="cloud-example" target="1.5" />
       <module name="config-server" target="1.8" />

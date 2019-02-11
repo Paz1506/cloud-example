@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
@@ -9,11 +10,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.zaytsevp</groupId>
-    <artifactId>model-service</artifactId>
+    <artifactId>auth-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>model-service</name>
-    <description>Model service</description>
+    <name>auth-service</name>
+    <description>Auth service</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -45,10 +46,6 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-openfeign</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-oauth2</artifactId>
         </dependency>
 
@@ -68,6 +65,13 @@
             <scope>test</scope>
         </dependency>
 
+        <!--Guava-->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>27.0.1-jre</version>
+        </dependency>
+
         <!-- Swagger-->
         <dependency>
             <groupId>io.springfox</groupId>
@@ -81,6 +85,7 @@
             <version>2.9.2</version>
         </dependency>
         <!-- end region: Swagger-->
+
     </dependencies>
 
     <dependencyManagement>
