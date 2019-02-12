@@ -21,10 +21,10 @@ The list of available API endpoints can be seen in Swagger for a services:
 
 0) Start all microservices: config server must be started by the first.
 
-1) get OAuth token (user or admin):
+1) Get OAuth token (user or admin):
 
 > **CURL:** curl.exe -X POST -u my-client:my-secret -d "username=admin&password=123456&grant_type=password" http://localhost:8055/oauth/token**
 
-2) send request with access token:
+2) Send request with access token:
 
 > **CURL:** curl.exe -X GET --header "Authorization: Bearer 6b90765e-8d51-4d27-9d98-ab21d8527751"  http://localhost:8078/models/dto/00000000-0000-0000-0000-000000000000
