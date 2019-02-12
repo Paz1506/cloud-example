@@ -17,6 +17,7 @@ public class UserDetailServiceImpl implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        return new User("admin", "123456", AuthorityUtils.createAuthorityList("ROLE_ADMIN"));
+        return username.equals("admin") ? new User("admin", "123456", AuthorityUtils.createAuthorityList("ROLE_ADMIN"))
+                                        : new User("user", "123456", AuthorityUtils.createAuthorityList("ROLE_USER"));
     }
 }

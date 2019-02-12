@@ -6,9 +6,9 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
 /**
- * Created on 25.07.2018.
+ * Created on 11.02.2019.
  *
- * @author Korovin Anatoliy
+ * @author Pavel Zaytsev
  */
 @Configuration
 public class AuthenticationManagerConfig extends WebSecurityConfigurerAdapter {

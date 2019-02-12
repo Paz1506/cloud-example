@@ -12,9 +12,9 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Aut
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer;
 
 /**
- * Created on 25.07.2018.
+ * Created on 11.02.2019.
  *
- * @author Korovin Anatoliy
+ * @author Pavel Zaytsev
  */
 @Configuration
 @EnableAuthorizationServer
