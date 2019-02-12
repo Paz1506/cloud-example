@@ -6,6 +6,7 @@ import com.zaytsevp.modelservice.model.Auto;
 import com.zaytsevp.modelservice.model.Model;
 import com.zaytsevp.modelservice.service.ModelService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -39,12 +40,15 @@ public class ModelController {
         return modelService.getById(id).orElseThrow(EntityNotFoundException::new);
     }
 
+    /** Доступ к данному API имеет только админ */
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     @GetMapping(value = "/dto/{id}")
     public ModelDto getDtoById(@PathVariable("id") UUID id) {
         Model model = modelService.getById(id).orElseThrow(EntityNotFoundException::new);
         Auto auto = autoServiceFeign.getById(model.getAutoId());
 
-        return ModelDto.builder().modelName(model.getName())
+        return ModelDto.builder()
+                       .modelName(model.getName())
                        .id(auto.getId())
                        .autoName(auto.getName())
                        .buildYear(model.getBuildYear())
