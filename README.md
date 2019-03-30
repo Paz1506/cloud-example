@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/Paz1506/cloud-example.svg?branch=master)](https://travis-ci.org/Paz1506/cloud-example)
+[![codebeat badge](https://codebeat.co/badges/fde06c30-2c9c-4b85-996d-1fdadc2d8419)](https://codebeat.co/projects/github-com-paz1506-cloud-example-master)
 
 <h2>Spring cloud example</h2>
 
