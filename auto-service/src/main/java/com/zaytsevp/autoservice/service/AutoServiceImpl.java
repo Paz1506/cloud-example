@@ -13,6 +13,9 @@ import java.util.Optional;
 import java.util.Random;
 import java.util.UUID;
 
+/**
+ * @author Pavel Zaytsev
+ */
 @Service
 public class AutoServiceImpl implements AutoService {
 

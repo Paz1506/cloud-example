@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 import java.security.Principal;
 
 /**
- * Created on 11.02.2019.
  *
  * @author Pavel Zaytsev
  */

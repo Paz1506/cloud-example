@@ -7,6 +7,11 @@ import javax.persistence.*;
 import java.util.Set;
 import java.util.UUID;
 
+/**
+ * Сущность "Авто"
+ *
+ * @author Pavel Zaytsev
+ */
 @NoArgsConstructor
 @Getter
 @Setter

@@ -12,8 +12,6 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Aut
 import org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer;
 
 /**
- * Created on 11.02.2019.
- *
  * @author Pavel Zaytsev
  */
 @Configuration

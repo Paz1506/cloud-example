@@ -8,6 +8,11 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 import java.util.UUID;
 
+/**
+ * Сущность "Модель"
+ *
+ * @author Pavel Zaytsev
+ */
 @NoArgsConstructor
 @Getter
 @Setter

@@ -8,8 +8,6 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 /**
- * Created on 11.02.2019.
- *
  * @author Pavel Zaytsev
  */
 @Service

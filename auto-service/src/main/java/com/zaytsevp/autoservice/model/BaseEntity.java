@@ -14,6 +14,11 @@ import javax.persistence.*;
 import java.util.Objects;
 import java.util.UUID;
 
+/**
+ * Базовый класс для всех сущностей
+ *
+ * @author Pavel Zaytsev
+ */
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter

@@ -9,6 +9,9 @@ import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
+/**
+ * @author Pavel Zaytsev
+ */
 @Service
 public class ModelServiceImpl implements ModelService {
 
