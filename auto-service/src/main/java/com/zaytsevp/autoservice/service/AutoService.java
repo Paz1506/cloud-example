@@ -15,7 +15,7 @@ public interface AutoService {
 
     List<Auto> getAll();
 
-    Optional<Auto> getById(UUID id);
+    Auto getById(UUID id);
 
     Auto createRandom();
 
