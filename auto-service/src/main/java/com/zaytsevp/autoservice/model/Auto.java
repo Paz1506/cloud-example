@@ -7,6 +7,8 @@ import javax.persistence.*;
 import java.util.Set;
 import java.util.UUID;
 
+import static javax.persistence.EnumType.STRING;
+
 /**
  * Сущность "Авто"
  *
@@ -44,6 +46,7 @@ public class Auto extends BaseEntity {
      * Тип автмобилей
      */
     @Column(name = "AUTO_TYPE")
+    @Enumerated(STRING)
     @ElementCollection(fetch = FetchType.EAGER)
     private Set<AutoType> types = Sets.newHashSet(AutoType.LIGHT);
 }

@@ -3,9 +3,7 @@ package com.zaytsevp.autoservice.api.dto;
 import com.zaytsevp.autoservice.model.AutoType;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.Set;
 import java.util.UUID;
@@ -16,6 +14,8 @@ import java.util.UUID;
 @Getter
 @Setter
 @Builder
+@AllArgsConstructor
+@NoArgsConstructor
 @ApiModel("Авто")
 public class AutoDto {
     @ApiModelProperty("Идентификатор")

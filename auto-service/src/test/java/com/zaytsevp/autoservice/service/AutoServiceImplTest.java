@@ -5,7 +5,7 @@ import com.zaytsevp.autoservice.model.AutoType;
 import com.zaytsevp.autoservice.repository.AutoRepository;
 import org.assertj.core.api.Assertions;
 import org.assertj.core.util.Lists;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.function.Executable;
 import org.mockito.ArgumentCaptor;
 
@@ -18,7 +18,7 @@ import static org.mockito.Mockito.*;
 /**
  * @author Pavel Zaytsev
  */
-public class AutoServiceImplTest {
+class AutoServiceImplTest {
 
     private AutoRepository autoRepository = mock(AutoRepository.class);
 
@@ -27,7 +27,7 @@ public class AutoServiceImplTest {
     private Auto auto = mock(Auto.class);
 
     @Test
-    public void getAll() throws Exception {
+    void getAll() throws Exception {
         // Prepare
         List<Auto> autos = Lists.newArrayList(auto);
         when(autoRepository.findAll()).thenReturn(autos);
@@ -44,7 +44,7 @@ public class AutoServiceImplTest {
     }
 
     @Test
-    public void getById() throws Exception {
+    void getById() throws Exception {
         // Prepare
         UUID id = UUID.randomUUID();
         when(autoRepository.findById(any(UUID.class))).thenReturn(Optional.of(auto));
@@ -60,7 +60,7 @@ public class AutoServiceImplTest {
     }
 
     @Test
-    public void getByIdWithoutId() throws Exception {
+    void getByIdWithoutId() throws Exception {
         // Actual
         Executable exec = () -> autoService.getById(null);
 
@@ -70,7 +70,7 @@ public class AutoServiceImplTest {
     }
 
     @Test
-    public void createRandom() throws Exception {
+    void createRandom() throws Exception {
         // Prepare
         when(autoRepository.saveAndFlush(any(Auto.class))).thenReturn(auto);
 

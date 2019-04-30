@@ -6,7 +6,7 @@ import com.zaytsevp.autoservice.model.Auto;
 import com.zaytsevp.autoservice.service.AutoService;
 import org.assertj.core.api.Assertions;
 import org.assertj.core.util.Lists;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.List;
 import java.util.UUID;
@@ -17,7 +17,7 @@ import static org.mockito.Mockito.*;
 /**
  * @author Pavel Zaytsev
  */
-public class AutoControllerTest {
+class AutoControllerTest {
 
     private AutoService autoService = mock(AutoService.class);
 
@@ -26,7 +26,7 @@ public class AutoControllerTest {
     private AutoController autoController = new AutoController(autoService, autoMapper);
 
     @Test
-    public void getAll() throws Exception {
+    void getAll() throws Exception {
         // Prepare
         Auto auto = mock(Auto.class);
         AutoDto autoDto = mock(AutoDto.class);
@@ -48,7 +48,7 @@ public class AutoControllerTest {
     }
 
     @Test
-    public void getById() throws Exception {
+    void getById() throws Exception {
         // Prepare
         UUID id = UUID.randomUUID();
         Auto auto = mock(Auto.class);
@@ -70,7 +70,7 @@ public class AutoControllerTest {
     }
 
     @Test
-    public void createRandom() throws Exception {
+    void createRandom() throws Exception {
         // Prepare
         Auto auto = mock(Auto.class);
         AutoDto autoDto = mock(AutoDto.class);
