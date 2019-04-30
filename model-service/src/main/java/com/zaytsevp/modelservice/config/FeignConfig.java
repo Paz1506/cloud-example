@@ -1,10 +1,7 @@
 package com.zaytsevp.modelservice.config;
 
-import feign.RequestInterceptor;
-import org.springframework.cloud.security.oauth2.client.feign.OAuth2FeignRequestInterceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.security.oauth2.client.OAuth2ClientContext;
 import org.springframework.security.oauth2.client.resource.OAuth2ProtectedResourceDetails;
 import org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableOAuth2Client;
@@ -17,12 +14,6 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 @EnableOAuth2Client
 @Configuration
 public class FeignConfig {
-
-    @Bean
-    public RequestInterceptor oauth2FeignRequestInterceptor(OAuth2ClientContext oauth2ClientContext,
-                                                            OAuth2ProtectedResourceDetails resource) {
-        return new OAuth2FeignRequestInterceptor(oauth2ClientContext, resource);
-    }
 
     @Bean
     protected OAuth2ProtectedResourceDetails resource() {

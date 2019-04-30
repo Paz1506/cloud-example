@@ -14,11 +14,11 @@
   "auto_types": [
     {
       "AUTO_ID": "00000000-0000-0000-0000-000000000000",
-      "AUTO_TYPE": "LIGHT"
+      "AUTO_TYPE": 0
     },
     {
       "AUTO_ID": "00000000-0000-0000-0000-000000000001",
-      "AUTO_TYPE": "TRUCK"
+      "AUTO_TYPE": 3
     }
   ]
 }

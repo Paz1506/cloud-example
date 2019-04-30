@@ -19,15 +19,15 @@
   "auto_types": [
     {
       "AUTO_ID": "00000000-0000-0000-0000-000000000000",
-      "AUTO_TYPE": "LIGHT"
+      "AUTO_TYPE": 0
     },
     {
       "AUTO_ID": "00000000-0000-0000-0000-000000000001",
-      "AUTO_TYPE": "TRUCK"
+      "AUTO_TYPE": 3
     },
     {
       "AUTO_ID": "regex:[0-9A-Za-z]{8}-([0-9A-Za-z]{4}-){3}[0-9A-Za-z]{12}",
-      "AUTO_TYPE": "LIGHT"
+      "AUTO_TYPE": 0
     }
   ]
 }

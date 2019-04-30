@@ -4,8 +4,6 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.*;
 
-import java.util.UUID;
-
 /**
  * @author Pavel Zaytsev
  */
@@ -15,16 +13,10 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 @ApiModel("Авто")
-public class ModelDto {
-
-    @ApiModelProperty("Идентификатор")
-    private UUID id;
+public class AutoDto {
 
     @ApiModelProperty("Наименование")
     private String name;
-
-    @ApiModelProperty("Идентификатор автопроизводителя")
-    private UUID autoId;
 
     @ApiModelProperty("Год основания")
     private int foundYear;

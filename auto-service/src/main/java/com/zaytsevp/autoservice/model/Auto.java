@@ -46,7 +46,6 @@ public class Auto extends BaseEntity {
      * Тип автмобилей
      */
     @Column(name = "AUTO_TYPE")
-    @Enumerated(STRING)
     @ElementCollection(fetch = FetchType.EAGER)
     private Set<AutoType> types = Sets.newHashSet(AutoType.LIGHT);
 }

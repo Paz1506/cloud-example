@@ -4,9 +4,10 @@ import com.zaytsevp.modelservice.model.Model;
 import com.zaytsevp.modelservice.repository.ModelRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import javax.persistence.EntityNotFoundException;
 import java.util.List;
-import java.util.Optional;
 import java.util.UUID;
 
 /**
@@ -23,16 +24,19 @@ public class ModelServiceImpl implements ModelService {
     }
 
     @Override
+    @Transactional(readOnly = true)
     public List<Model> getAll() {
         return modelRepository.findAll();
     }
 
     @Override
-    public Optional<Model> getById(UUID id) {
+    @Transactional(readOnly = true)
+    public Model getById(UUID id) {
         if (id == null) {
             throw new IllegalArgumentException("Get by null id");
         }
 
-        return modelRepository.findById(id);
+        return modelRepository.findById(id)
+                              .orElseThrow(() -> new EntityNotFoundException("Модель не найдена"));
     }
 }

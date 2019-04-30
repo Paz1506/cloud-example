@@ -14,8 +14,8 @@ import java.util.UUID;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@ApiModel("Авто")
-public class ModelDto {
+@ApiModel("Модель")
+public class ModelProjectionDto {
 
     @ApiModelProperty("Идентификатор")
     private UUID id;
@@ -23,9 +23,9 @@ public class ModelDto {
     @ApiModelProperty("Наименование")
     private String name;
 
-    @ApiModelProperty("Идентификатор автопроизводителя")
-    private UUID autoId;
+    @ApiModelProperty("Авто")
+    private AutoDto auto;
 
-    @ApiModelProperty("Год основания")
-    private int foundYear;
+    @ApiModelProperty("Дата выпуска модели")
+    private int buildYear;
 }

@@ -9,6 +9,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.function.Executable;
 import org.mockito.ArgumentCaptor;
 
+import javax.persistence.EntityNotFoundException;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
@@ -70,6 +71,22 @@ class AutoServiceImplTest {
     }
 
     @Test
+    void getByIdWithNotFound() throws Exception {
+        // Prepare
+        UUID id = UUID.randomUUID();
+        when(autoRepository.findById(any(UUID.class))).thenThrow(new EntityNotFoundException());
+
+        // Actual
+        Executable exec = () -> autoService.getById(id);
+
+        // Assertion
+        org.junit.jupiter.api.Assertions.assertThrows(EntityNotFoundException.class, exec);
+
+        verify(autoRepository).findById(eq(id));
+        verifyNoMoreInteractions(autoRepository);
+    }
+
+    @Test
     void createRandom() throws Exception {
         // Prepare
         when(autoRepository.saveAndFlush(any(Auto.class))).thenReturn(auto);
@@ -89,5 +106,4 @@ class AutoServiceImplTest {
         Assertions.assertThat(argumentCaptor.getValue().getFoundYear()).isBetween(0, 2000);
         Assertions.assertThat(argumentCaptor.getValue().getTypes()).containsExactly(AutoType.LIGHT);
     }
-
 }

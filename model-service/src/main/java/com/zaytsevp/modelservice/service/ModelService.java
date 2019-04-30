@@ -17,6 +17,6 @@ public interface ModelService {
     List<Model> getAll();
 
     /** получить модель по идентификатору */
-    Optional<Model> getById(UUID id);
+    Model getById(UUID id);
 
 }
