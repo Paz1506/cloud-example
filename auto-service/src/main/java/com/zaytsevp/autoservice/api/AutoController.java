@@ -36,6 +36,7 @@ public class AutoController {
     }
 
     @GetMapping(value = "/{id}")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     @ApiOperation("Получить автомобиль по идентификатору")
     public AutoDto getById(@PathVariable("id") UUID id) {
         return autoMapper.toDto(autoService.getById(id));

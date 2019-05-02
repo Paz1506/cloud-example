@@ -13,6 +13,9 @@ import org.springframework.security.oauth2.provider.expression.OAuth2MethodSecur
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class SecurityMethodConfig extends GlobalMethodSecurityConfiguration {
 
+    /**
+     * Резолвим пермишны через hasRole
+     */
     @Bean
     public OAuth2MethodSecurityExpressionHandler oauthExpressionHandler() {
         return new OAuth2MethodSecurityExpressionHandler();
