@@ -1,12 +1,9 @@
 package com.zaytsevp.modelservice.feign;
 
-import com.zaytsevp.modelservice.config.FeignConfig;
-import com.zaytsevp.modelservice.config.OAuthInterceptorConfig;
 import com.zaytsevp.modelservice.model.Auto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
 import java.util.UUID;
@@ -16,7 +13,8 @@ import java.util.UUID;
  *
  * @author Pavel Zaytsev
  */
-@FeignClient(value = "auto-service", configuration = {FeignConfig.class, OAuthInterceptorConfig.class})
+//@FeignClient(value = "auto-service", configuration = {FeignConfig.class, OAuthInterceptorConfig.class})
+@FeignClient(value = "auto-service")
 public interface AutoServiceFeign {
 
     @GetMapping("/autos/all")
