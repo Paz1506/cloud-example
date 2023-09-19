@@ -4,7 +4,7 @@
 
 <h2>Spring cloud example</h2>
 
-An example of an application for working with the microservice architecture based on the Spring Boot / Cloud & Netflix stack:
+The example of an application for working with the microservice architecture based on the Spring Boot / Cloud & Netflix stack:
 * Config server & clients
 * Eureka discovery server & clients
 * Zuul gateway
@@ -15,7 +15,7 @@ An example of an application for working with the microservice architecture base
 
 <h3>API</h3>
 
-The list of available API endpoints can be seen in Swagger for a services:
+The list of available API endpoints can be seen in Swagger for services:
 * autos: http://localhost:8077/swagger-ui.html
 * models: http://localhost:8078/swagger-ui.html
 
@@ -27,6 +27,6 @@ The list of available API endpoints can be seen in Swagger for a services:
 
 > **CURL:** curl.exe -X POST -u my-client:my-secret -d "username=admin&password=123456&grant_type=password" http://localhost:8055/oauth/token**
 
-2) Send request with access token:
+2) Send a request with the access token:
 
 > **CURL:** curl.exe -X GET --header "Authorization: Bearer 6b90765e-8d51-4d27-9d98-ab21d8527751"  http://localhost:8078/models/dto/00000000-0000-0000-0000-000000000000
